@@ -1,6 +1,6 @@
 # Parallelize k-Nearest Neighbors Search 🔍
 
-Parallelize k-Nearest Neighbors Search is a program that constructs a [k-Dimensional tree](https://en.wikipedia.org/wiki/K-d_tree) and performs the [k-Nearest Neighbors algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) in parallel from training and query files. Designed a [thread-safe queue](https://www.educba.com/c-thread-safe-queue/) and [thread-pool](https://en.wikipedia.org/wiki/Thread_pool) to replicate a model similar to that of the producer-consumer design pattern to allow the program to concurrently building and querying the k-d tree. This repository also provides python script files that can generate training and query files for you to test the program on.
+Parallelize k-Nearest Neighbors Search is a program that constructs a [k-Dimensional tree](https://en.wikipedia.org/wiki/K-d_tree) and performs the [k-Nearest Neighbors algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) in parallel from training and query files. Designed a [thread-safe queue](https://www.educba.com/c-thread-safe-queue/) and [thread-pool](https://en.wikipedia.org/wiki/Thread_pool) to replicate a model similar to that of the producer-consumer design pattern to allow the program to concurrently building and querying the k-d tree. This repository also provides python script files that can generate training and query files for you to test the program on. This project was inspired by university course CS 447: High Performance Computing.
 
 ## Getting Started
 

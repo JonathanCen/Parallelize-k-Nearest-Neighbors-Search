@@ -40,7 +40,7 @@ make all
 Run executable with the generated training and query file, and file to write the results:
 
 ```
-./parallized-k-nn.cpp [n_cores] [training_file] [query_file] [result_file_name]
+./parallized-k-nn [n_cores] [training_file] [query_file] [result_file_name]
 ```
 
 ## More on generating query and training data
